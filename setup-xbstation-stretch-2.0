@@ -13,4 +13,5 @@ wget https://github.com/XBStation/XBStationManagerHeadless-Stretch/releases/down
 unzip XBStationManagerHeadless-2.0.zip
 rm -rf XBStationManagerHeadless-2.0.zip
 cd XBStationManagerHeadless-2.0
+sudo chmod +x *
 sudo ./setup.sh init
